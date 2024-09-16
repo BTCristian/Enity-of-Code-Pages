@@ -17,7 +17,6 @@
 #text1,
 #text2 {
   width: 0vw;
-  /* font-family: "Raleway", sans-serif; */
-  font-family: "font-no-exit";
+  font-family: "Raleway", sans-serif;
   font-size: 3.35vw;
 }
