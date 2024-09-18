@@ -6,11 +6,11 @@ const LogoCode = () => {
 
   return (
     <div
-      className="flex items-center justify-center w-1/2 md:w-1/4 mx-auto"
+      className="flex flex-col items-center justify-center  "
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
-      <div>
+      <div className="">
         <div>
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -56,7 +56,7 @@ const LogoCode = () => {
         </div>
       </div>
       {hovered && (
-        <div className="flex top-0 left-1/3  md:left-0 ">
+        <div className="flex 2xl:ml-40 xl:ml-28 lg:ml-28 md:ml-20 ml-16">
           <LogoCodeAnimation />
         </div>
       )}
