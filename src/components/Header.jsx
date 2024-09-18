@@ -5,8 +5,7 @@ const Header = () => {
     <div>
       <header className="flex flex-col pl-4 pt-4 bg-black">
         <div className="flex flex-row mr-20 ml-0">
-          {/* href="/" */}
-          <a rel="noopener noreferrer" className="text-white flex ">
+          <a href="/" rel="noopener noreferrer" className="text-white flex ">
             <div className="2xl:w-1/2 xl:w-1/3 lg:w-1/3 md:w-1/4 w-1/5 ">
               <LogoCode />
             </div>
