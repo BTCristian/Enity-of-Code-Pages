@@ -12,7 +12,7 @@ const Header = () => {
           </a>
         </div>
         <div>
-          <p className="text-xs md:text-sm text-white text-right xl:mt-8 lg:mt-4 md:mt-5 mt-2">
+          <p className="text-xs md:text-sm text-white text-right mr-2 2xl:-mt-14 xl:-mt-10 lg:-mt-10 md:-mt-8 mt-2.5">
             where [c] stands for more than just crypto
           </p>
         </div>

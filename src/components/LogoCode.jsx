@@ -6,7 +6,7 @@ const LogoCode = () => {
 
   return (
     <div
-      className="flex flex-col items-center justify-center  "
+      className="flex flex-col items-center justify-center"
       onMouseEnter={() => setHovered(true)}
       onMouseLeave={() => setHovered(false)}
     >
